@@ -10,8 +10,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="search" style="background-color: rgb(106, 238, 220);">HEADER SEARCH</div>
-            <div class="nav" style="background-color: rgb(48, 204, 34);">
+            <div class="search" style="background-color: rgb(255, 255, 255);">HEADER SEARCH</div>
+            <div class="nav" style="background-color: rgb(255, 255, 255);">
                 <div class="profile">
                     <p>Hi there,</p>
                 </div>
@@ -24,23 +24,25 @@
         </div>
         <div class="sidebar" style="background-color: rgb(41, 130, 209);">
             <div class="title">
-                <img class="logo" src = "icons/dashboard.svg" alt="dashboard icon"/>Dashboard
+                <img class="titleLogo" src = "sidebarIcons/dashboard.svg" alt="dashboard icon"/>Dashboard
             </div>
-            <div class="up">
-                <div>Home</div>
-                <div>Profile</div>
-                <div>Messages</div>
-                <div>History</div>
-                <div>Tasks</div>
-                <div>Communities</div>
-            </div>
-            <div class="down">
-                <div>Settings</div>
-                <div>Support</div>
-                <div>Privacy</div>
+            <div class="sideItems">
+                <div class="up">
+                    <div><img class="logo" src = "sidebarIcons/home.svg" alt="home icon"/>Home</div>
+                    <div><img class="logo" src = "sidebarIcons/profile.svg" alt="profile icon"/>Profile</div>
+                    <div><img class="logo" src = "sidebarIcons/message.svg" alt="message icon"/>Messages</div>
+                    <div><img class="logo" src = "sidebarIcons/history.svg" alt="history icon"/>History</div>
+                    <div><img class="logo" src = "sidebarIcons/tasks.svg" alt="tasks icon"/>Tasks</div>
+                    <div><img class="logo" src = "sidebarIcons/community.svg" alt="community icon"/>Communities</div>
+                </div>
+                <div class="down">
+                    <div><img class="logo" src = "sidebarIcons/settings.svg" alt="settings icon"/>Settings</div>
+                    <div><img class="logo" src = "sidebarIcons/support.svg" alt="support icon"/>Support</div>
+                    <div><img class="logo" src = "sidebarIcons/privacy.svg" alt="privacy icon"/>Privacy</div>
+                </div>
             </div>
         </div>
-        <div class="main" style="background-color: rgb(27, 206, 27);">
+        <div class="main">
             <div class="projects">
                 <div>Super Cool Project</div>
                 <div>Less Cool Project</div>
@@ -50,8 +52,50 @@
                 <div>Money Maker</div>
             </div>
             <div class="side-main">
-                <div class="announcements"></div>
-                <div class="trending"></div>
+                <div class="announcements">
+                    <div class="box">
+                        <div class="title">Site Maintenance</div>
+                        <div class="text">Nunc tempor congue felis, eget convallis mi dapibus eu. Donec id risus.</div>
+                    </div>
+                    <div class="box">
+                        <div class="title">Community Share Day</div>
+                        <div class="text">Suspendisse id ante et sapien pharetra pulvinar sit amet a felis. In.</div>
+                    </div>
+                    <div class="box" style="border: 0px">
+                        <div class="title">Updated Privacy Policy</div>
+                        <div class="text">Nulla convallis blandit quam ac porttitor. Pellentesque ipsum elit ac.</div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <div>
+                        <img style="width: 50px;" src = "mainSideBarIcons/goblin.png" alt="goblin icon"/>
+                            <div class="comment">
+                                <div class="author">@tegan</div>
+                                <div class="comment">World Peace Builder</div>
+                            </div>
+                    </div>
+                    <div>
+                        <img style="width: 50px;" src = "mainSideBarIcons/robinhood.png" alt="robin hood icon"/>
+                            <div class="comment">
+                                <div class="author">@morgan</div>
+                                <div class="comment">Super Cool Project</div>
+                            </div>
+                    </div>
+                    <div>
+                        <img style="width: 50px;" src = "mainSideBarIcons/witch.png" alt="witch icon"/>
+                        <div class="comment">
+                            <div class="author">@kendall</div>
+                            <div class="comment">Life Changing App</div>
+                        </div>
+                    </div>
+                    <div>
+                        <img style="width: 50px;" src = "mainSideBarIcons/wizard.png" alt="wizard icon"/>
+                        <div class="comment">
+                            <div class="author">@alex</div>
+                            <div class="comment">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
