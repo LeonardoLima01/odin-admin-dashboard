@@ -74,17 +74,19 @@ body{
 .buttons{
     display: grid;
     grid-template-columns: repeat(3,100px);
-    gap: 30px;
-    justify-self: end;
+    gap: 40px;
+    justify-self: center;
+    margin-right: -60px;
 }
 button{
-    width: 90px;
+    width: 120px;
     padding: 12px;
     border-radius: 50px;
     background-color: rgb(60, 148, 255);
     color: white;
     font-weight: bold;
     font-size: 17px;
+    border: 0px;
 }
 
 .main{
@@ -96,7 +98,7 @@ button{
 }
 
 .projects{
-    background-color: rgb(231, 231, 231);;
+    background-color: rgb(231, 231, 231);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -105,10 +107,23 @@ button{
 }
 
 .projects>div{
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border-left: 10px solid rgb(255, 196, 0);
+    display: grid;
+    grid-template-rows: 30px 2fr 1fr;
+}
+
+
+.top{
+    font-size: 22px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.mid{
+    font-size: 18px;
 }
 
 .side-main{
@@ -163,4 +178,72 @@ button{
 .author{
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.search{
+    display: grid;
+    align-items: center;
+    margin-left: 50px;
+    grid-template-columns: 25px 3fr 0.5fr 50px 1fr;
+    gap: 15px;
+}
+
+.search img{
+    height: 20px;
+}
+
+.searchbar{
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    height: 30px;
+}
+
+.bell{
+    margin-left: auto;
+}
+
+#bellIcon{
+    height: 24px;
+    margin-right: 15px;
+}
+
+.search img.robinhood{
+    height: 55px;
+}
+
+#profileName{
+    font-size: 20px;
+    font-weight:900;
+    margin-left: 8px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#robinHoodProfileIcon{
+    height: 75px;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    column-gap: 15px;
+}
+
+#robinHoodDivProfileIcon{
+    justify-self: flex-end;
+    grid-row: 1/3;
+}
+
+#subGreetings{
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+#mainGreetings{
+    font-size: 28px;
+    font-weight: 900;
+    align-self: center;
 }
